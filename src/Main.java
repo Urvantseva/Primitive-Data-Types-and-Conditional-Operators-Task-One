@@ -6,11 +6,11 @@ public class Main {
         int oneMile = 20; // сумма начисленния за 1 милю
 
         int miles; // Объявляете переменные для количества милей
-        if (ticketPrice < 0)  {
+        if (ticketPrice < 0) {
             System.out.println("Стоимость билета не может быть отрицательной");
-        }else{
+        } else {
             miles = ticketPrice / oneMile; // подсчёт количество милей
-            System.out.println("Ваше количество миль: "  + miles + ". Желаем хорошего полёта!");
+            System.out.println("Ваше количество миль: " + miles + ". Желаем хорошего полёта!");
 
         }
     }
